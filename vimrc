@@ -1,0 +1,24 @@
+set title
+set nocompatible
+set hidden
+set number
+set showcmd
+set showmatch
+set nowrap
+set tabstop=4 
+set backspace=indent,eol,start
+set autoindent
+set copyindent
+set history=1000
+set undolevels=1000
+" Search
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+" Python
+set list
+set listchars=tab:>.,trail:.,extends:#,nbsp:.
+syntax on
+filetype on
+filetype plugin indent on
